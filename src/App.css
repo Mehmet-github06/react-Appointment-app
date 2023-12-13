@@ -48,5 +48,6 @@
   .icons:hover{
     transform: scale(115%);
     transition: all .4s ease;
+  
    
   }
