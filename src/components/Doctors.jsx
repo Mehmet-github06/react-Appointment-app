@@ -7,7 +7,7 @@ import { doctorData } from "../helpers/Data";
 import AddModal from "./AddModal";
 import { useState } from "react";
 
-const Doctors = () => {
+const Doctors = ({ handleAdd }) => {
   const [show, setShow] = useState(false);
   const [selectedDoctor, setSelectedDoctor] = useState(null);
 
@@ -16,7 +16,7 @@ const Doctors = () => {
   const handleClose = () => setShow(false);
   const handleShow = (name) => {
     setShow(true);
-    setDrName(name)
+    setDrName(name);
   };
 
   const handleShowImage = (doctor) => {
@@ -28,14 +28,14 @@ const Doctors = () => {
   };
 
   return (
-    <Container className="p-2 " >
+    <Container className="p-2 ">
       <h3 className="display-6 mb-3" style={{ color: "rgb(166, 18, 189)" }}>
         Our Doctors
       </h3>
       <Row>
         {doctorData.map(({ id, img, dep, name }) => (
-          <Col key={id} xl={3} lg={3} md={6}  className="g-4 ">
-            <Card  className="img-thumbnail caards">
+          <Col key={id} xl={3} lg={3} md={6} className="g-4 ">
+            <Card className="img-thumbnail caards">
               <Card.Img
                 variant="top"
                 src={selectedDoctor === id ? "./indir.png" : img}
@@ -57,7 +57,12 @@ const Doctors = () => {
           </Col>
         ))}
       </Row>
-      <AddModal handleClose={handleClose} show={show} drName={drName} />
+      <AddModal
+        handleClose={handleClose}
+        show={show}
+        drName={drName}
+        handleAdd={handleAdd}
+      />
     </Container>
   );
 };
