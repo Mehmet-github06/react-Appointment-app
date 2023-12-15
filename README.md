@@ -1,4 +1,4 @@
-# Anatolian Hospital Appointment System
+# Can Hospital Appointment System
 
 <br />
 <div align="center" id="readme-top">
@@ -8,12 +8,12 @@
 
   <h3 align="center">Anatolian Hospital</h3>
   <p align="center">
-    <a href="https://main--visionary-parfait-789f06.netlify.app/"><strong> 👩‍⚕️ LIVE 👨‍⚕️ »</strong></a>
+    <a href="https://react-appointment-doctor-app.netlify.app/"><strong> 👩‍⚕️ LIVE 👨‍⚕️ »</strong></a>
     <br />
   </p>
 </div>
 
-<img src="https://github.com/samedfft2634/Appointment_App/assets/100915606/1ca8ce45-4cd8-4ac5-a2f3-7bfdf27e9e33" >
+<img src="./public/img/Animation.gif" >
 
 ## Description
 
@@ -26,9 +26,9 @@ This project is a web-based appointment system for Anatolian Hospital. It allows
 -   **Appointment Management:** Users can view, add, and delete appointments.
 
 ## Screenshots
-<img src="https://github.com/samedfft2634/Appointment_App/assets/100915606/292e368e-4808-4155-9f8a-914525b1c6aa" alt="modalImg" width="45%" height="300px">
-<img src="https://github.com/samedfft2634/Appointment_App/assets/100915606/0308d6e5-5f35-4777-b9a7-06bdfecc45b2" alt="modalImg" width="45%" height="300px">
-<img src="https://github.com/samedfft2634/Appointment_App/assets/100915606/7e70411d-8db2-4de4-8cd4-ee8860a60cda" alt="modalImg" width="90%" height="500px">
+<img src="./public/img/Screenshot_2.jpg" alt="modalImg" width="45%" height="300px">
+<img src="./public/img/Screenshot_3.jpg" alt="modalImg" width="45%" height="300px">
+<img src="./public/img/Screenshot_4.jpg" alt="modalImg" width="90%" height="500px">
 
 
 ## Getting Started
@@ -63,12 +63,12 @@ A step by step series of examples that tell you how to get a development environ
 
 ## Responsive Looks
 
-<img src="https://github.com/samedfft2634/Appointment_App/assets/100915606/9e08f17b-3860-4af3-ba8c-deed3aaadcdc" alt="modalImg" width="30%">
-<img src="https://github.com/samedfft2634/Appointment_App/assets/100915606/0b18413b-8bf9-4a72-93cf-d45dafc2a229" alt="modalImg" width="65%" >
+<img src="./public/img/Screenshot_13.jpg" alt="modalImg" width="30%">
+<img src="./public/img/Screenshot_1.jpg" alt="modalImg" width="65%" >
 
 ## Contact
 
-Samed Fent: samedfft@gmail.com <br>
-Project Link: https://main--visionary-parfait-789f06.netlify.app/ <br><br>
- [To see my other projects 🗂](https://github.com/samedfft2634?tab=repositories) <br><br>
+Mehmet Doğan: mehmetseymen91@gmail.com <br>
+Project Link: https://react-appointment-doctor-app.netlify.app/<br><br>
+ [To see my other projects 🗂](https://github.com/Mehmet-github06) <br><br>
  <a href="readme-top" >⏫ Go Top ⏫</a>
